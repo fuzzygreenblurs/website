@@ -3,203 +3,27 @@ layout: inner
 title: About
 permalink: /about/
 ---
-## Markdown
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+### Resume
 
-[Link to another page](/index.html).
+My resume can be found [here](https://resume.creddle.io/resume/2oo4goudb4q)!
 
-There should be whitespace between paragraphs.
+&nbsp;
+### A bit about myself...
 
-# Header 1
+Hello! My name is Akhil and I am (primarily) a backend engineer with an academic background in mechanical engineering. I have always been interested in the marriage of these disciplines and have spent the last few years of my career developing APIs/services to support a variety of IoT projects, from smart home automation to farming automation (first at Farmshelf and currently at Sensei). Over the years, I have developed a more focused interest in the cognitive aspects of robotics such as perception and path-planning and have recently begun my graduate studies in in mechatronics, system modeling and idenitification and robotic manipulation. I am currently interested in opportunities that are primarily software-oriented in any application of these subdomains.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Outside of work and classes, I keep myself busy on the tennis court, playing the piano or simply just walking around and taking in New York from time to time. This winter, I also had a chance to try skiing in Utah and Vermont for the first time!
 
-## Header 2
+&nbsp;
+### My current project:
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+My current passion project is a 3 DoF SCARA robotic arm equipped with an electromagnet as its end-effector to perform a pick-and-place operation. The idea is to use a camera to track any new objects introduced into the workspace, perform a coordinate transformation calculation to determine the location of the object with respect to the physical coordinate space. [Here's a quick demo](https://www.youtube.com/watch?v=rHNCS8GCMkQ&feature=youtu.be) of this concept in action.
 
-### Header 3
 
-{% highlight js %}
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-{% endhighlight %}
+The robotic arm then performs an inverse kinematics operation to determine the requisite joint orientations to reach the object. Other concepts of interest include a proportional control algorithm to position the electromagnet using a linear actuator using a DC-motor with quadrature encoder assembly.
 
-{% highlight ruby %}
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-{% endhighlight %}
+![The assembly currently looks something like this](../img/manipulator_current_state.png)
 
-#### Header 4
+More coming in a series of blog posts as I continue to develop this project into a working prototype!
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
----
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Wide image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-{% highlight txt %}
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-{% endhighlight %}
-
-{% highlight txt %}
-The final element.
-{% endhighlight %}
-
----
-
-## Syntax highlighting
-
-Jekyll has [built in support](https://jekyllrb.com/docs/templates/#code-snippet-highlighting) for syntax highlighting of over 60 languages thanks to [Rouge](http://rouge.jneen.net/).
-
-To render a code block with syntax highlighting, surround your code as follows:
-
-{% highlight markdown %}
-{% raw %}
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
-{% endraw %}
-{% endhighlight %}
-
-[Pygments](http://pygments.org/) styles are present under section 6.0 of `css/style.scss` for customization.
-
-### Examples
-
----
-
-#### Bash
-
-{% highlight bash %}
->_ ssh -i ~/.ssh/id_rsa account@host.com
-account@host:~$
-$ var="my-value"
-$ echo $var
-my-value
-$ logout
-{% endhighlight %}
-
-#### HTML
-
-{% highlight html %}
-<!DOCTYPE html>
-<html>
- <head>
-   <meta charset="UTF-8">
-   <title>title</title>
- </head>
- <body>
-
- </body>
-</html>
-{% endhighlight %}
-
-#### CSS
-
-{% highlight css %}
-/*--------------------------------------------------------------
-	1.0 Defaults
---------------------------------------------------------------*/
-
-@media (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
-}
-
-body {
-  background-color: #e9edf0;
-  @extend %opensans;
-  -webkit-font-smoothing: antialiased;
-}
-{% endhighlight %}
-
-#### YAML
-
-{% highlight yaml %}
-### Phantom settings
-paginate: 10
-footer_text: '© 2018 Jami Gibbs'
-admin_name: 'Jami Gibbs'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
-
-#### Phantom Navigation menu
-enable_nav: true
-nav_item:
-  - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
-{% endhighlight %}

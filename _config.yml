@@ -13,14 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Hello. I'm Jami Gibbs."
-email: 'jami0821@gmail.com'
-description: "I'm a software developer and designer from Chicago creating useful things for the web."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. https://example.com
-twitter_username: 'jamigibbs'
-github_username: 'jamigibbs'
-medium_username: 'blog.jamigibbs.com'
+title: "Akhil Sankar"
+email: 'akhil.sankar@gmail.com'
+description: "Hi there! Thanks for visiting my site! My name is Akhil and I'm a software engineer with an interest in all things robotics and IoT. Check out my About page to learn more about me (or to get a copy of my resume)."
+baseurl: "blog" # the subpath of your site, e.g. /blog
+url: ""
+github_username: 'fuzzygreenblurs'
+linkedin_username: "https://www.linkedin.com/in/akhilsankar/"
 
 # Build settings
 markdown: kramdown
@@ -89,9 +88,7 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_text: '© 2018 Jami Gibbs'
-admin_name: 'Jami Gibbs'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
+admin_name: 'Akhil Sankar'
 enable_contact: false
 
 #### Phantom Navigation menu
