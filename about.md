@@ -6,7 +6,7 @@ permalink: /about/
 
 ### Resume
 
-My resume can be found [here](https://resume.creddle.io/resume/2oo4goudb4q)!
+Please feel free to contact me if you'd like a copy of my resume. I can be reached at fuzzygreenblurs@gmail.com
 
 &nbsp;
 ### A bit about myself...
