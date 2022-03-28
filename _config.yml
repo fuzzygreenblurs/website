@@ -95,4 +95,4 @@ enable_contact: false
 enable_nav: true
 nav_item:
   - { url: '/website/', text: 'Home' }
-  - { url: '/about/', text: 'About' }
+  - { url: '/website/about/', text: 'About' }

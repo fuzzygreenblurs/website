@@ -6,7 +6,7 @@ permalink: /about/
 
 ### Resume
 
-Please feel free to contact me if you'd like a copy of my resume. I can be reached at fuzzygreenblurs@gmail.com
+Please feel free to contact me if you'd like a copy of my resume. I can be reached at akhil.sankar@sensei.com
 
 &nbsp;
 ### A bit about myself...
