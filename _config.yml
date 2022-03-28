@@ -16,8 +16,8 @@
 title: "Akhil Sankar"
 email: 'akhil.sankar@gmail.com'
 description: "Hi there! Thanks for visiting my site! My name is Akhil and I'm a software engineer with an interest in all things robotics and IoT. Check out my About page to learn more about me (or to get a copy of my resume)."
-baseurl: "/website" # the subpath of your site, e.g. /blog
-url: "https://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fuzzygreenblurs.github.io/website" # the base hostname & protocol for your site, e.g. https://example.com
 github_username: 'fuzzygreenblurs'
 linkedin_username: "https://www.linkedin.com/in/akhilsankar/"
 
